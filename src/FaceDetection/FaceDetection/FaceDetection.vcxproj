@@ -31,7 +31,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
     <IncludePath>D:\MyApp\QT5.11.2\OpenCV3.4.1_MSVC\opencv\build\include;D:\MyApp\QT5.11.2\OpenCV3.4.1_MSVC\opencv\build\include\opencv2;D:\MyApp\QT5.11.2\OpenCV3.4.1_MSVC\opencv\build\include\opencv;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\MyApp\QT5.11.2\OpenCV3.4.1_MSVC\opencv\build\x64\vc14\lib;C:\Users\lenovo\Desktop\FaceDetection\FaceDetection\lib\debug;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\MyApp\QT5.11.2\OpenCV3.4.1_MSVC\opencv\build\x64\vc14\lib;lib\debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
